@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # This loads .env file locally
 
-SQLALCHEMY_DATABASE_URL = os.getenv("POSTGRES_URL")
+SQLALCHEMY_DATABASE_URL = os.getenv("postgres_url")
 
 
 # Create SQLAlchemy engine
